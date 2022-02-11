@@ -20,6 +20,10 @@
  
 <br />
 
+![DB Migration Tool - Open-Source Developer Tool provided by AppSeed.](https://user-images.githubusercontent.com/51070104/153570755-dde19fba-03ca-4eed-a156-6a8efb1ef949.png)
+
+<br />
+
 ## ✨ Quick Start
 
 > Clone Sources (this repo)
