@@ -84,7 +84,7 @@ True
  > Dump data for [django_migrations]
  > Dump data for [django_session]
 True
->>> db_sqlite.reset()                                    # reset the Class data  
+>>> db_sqlite.reset()                                     # reset the Class data  
 >>>
 ```
 
