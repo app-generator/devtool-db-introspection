@@ -84,7 +84,7 @@ True
 
 <br />
 
-At this point, the tables and data are saved in the `output` directory.
+At this point, the tables and data are saved in the [output](https://github.com/app-generator/devtool-db/tree/main/output) directory.
 
 ```bash
 $ cd output ; ls 
