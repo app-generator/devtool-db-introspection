@@ -213,6 +213,42 @@ class DbWrapper:
         file_write('output/' + aFileName, sqlContent)
         return True
 
+    def dump_models(self, aFileName=None):
+
+        sqlContent = ''
+
+        if not self._models:
+            print( ' > Error: No DB models' )
+            return False
+
+        if not aFileName:
+            aFileName = get_date() + '_' + self.driver + '_models'
+
+        if not aFileName.endswith('.sql'):
+            aFileName += '.sql'
+
+        for table_name in self._models.keys():       
+
+            # SQLite Engine Metadata
+            if 'sqlite_sequence' == table_name:
+                continue
+
+            # Unused
+            aModel = self._models[ table_name ]
+
+            # Hack the print
+            with Capturing() as output:
+
+                self.print_db_model( table_name )
+
+            sqlContent += '\n'    
+            sqlContent += '-- Table: ' + table_name + '\n'
+            sqlContent += h_list_to_s( output, '\n' )
+            sqlContent += ';\n'
+
+        file_write('output/' + aFileName, sqlContent)
+        return True
+
     def dump_tables_data(self, aFileName=None):
 
         sqlContent = ''
@@ -232,7 +268,7 @@ class DbWrapper:
             # SQLite Engine Metadata
             if 'sqlite_sequence' == table_name:
                 continue
-            
+
             print( ' > Dump data for [' + table_name + ']' )
             self.dump_model_data( table_name )
 
