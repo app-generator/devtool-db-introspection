@@ -1,6 +1,6 @@
-# DB Migration Tool 
+# Database Introspection Tool
 
-`Open-Source` project that provides simple helpers for database migrations. 
+`Open-Source` tool that provides simple helpers for legacy databases introspection. Crafted on top of `Python` and [Peewee](http://docs.peewee-orm.com/en/latest/).
 
 <br />
 
@@ -104,4 +104,4 @@ $ SQLITE_django_migrations.sql
 <br />
 
 --- 
-DB Migration Tool - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+Database Introspection Tool - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
