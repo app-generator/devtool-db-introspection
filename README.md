@@ -14,7 +14,9 @@
   - `print_db_model` - print table definition
   - `dump_tables()` - Dump SQL definitions (all tables) 
   - `dump_tables_data()` - Dump database content (all tables)
-- [Support](https://appseed.us/support) via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+
+
+> [Support](https://appseed.us/support) via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
  
 <br />
 
