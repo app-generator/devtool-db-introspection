@@ -2,6 +2,9 @@
 
 `Open-Source` **[developers tool](https://appseed.us/developer-tools/)** that provides simple helpers for legacy databases introspection. Crafted on top of `Python` and [Peewee](http://docs.peewee-orm.com/en/latest/).
 
+- 👉 Free [support](https://appseed.us/support/) via Email and [Discord](https://discord.gg/fZC6hup)
+- 👉 More [Developer Tools](https://appseed.us/developer-tools/) - provided by AppSeed
+
 <br />
 
 > Features
